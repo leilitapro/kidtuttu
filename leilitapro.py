@@ -3,6 +3,11 @@ import streamlit as st
 # Configuración general del sitio
 st.set_page_config(page_title="Música Urbana Chilena", layout="wide")
 
+# Configuracion de logo
+st.logo(
+    "logokid.jpg"   
+)
+
 # Barra lateral para navegación
 st.sidebar.title("Navegación")
 pagina = st.sidebar.radio("Ir a:", [
@@ -51,3 +56,4 @@ elif pagina == "Yan Block":
 # Comentarios y explicaciones
 # Cada página usa multimedia y texto con información actualizada y widgets interactivos.
 # Cambia las URLs multimedia para ajustarlas a tu gusto o temática específica.
+
