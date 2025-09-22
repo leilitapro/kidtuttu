@@ -4,7 +4,7 @@ import streamlit as st
 st.set_page_config(page_title="Música Urbana Chilena", layout="wide")
 
 # Configuracion de logo
-st.logo(
+     st.logo(
     "logokid.jpg"   
 )
 
@@ -56,4 +56,5 @@ elif pagina == "Yan Block":
 # Comentarios y explicaciones
 # Cada página usa multimedia y texto con información actualizada y widgets interactivos.
 # Cambia las URLs multimedia para ajustarlas a tu gusto o temática específica.
+
 
